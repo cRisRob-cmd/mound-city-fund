@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Target Area | Mound City Fund</title>
+<meta name="description" content="The published target area for Mound City Fund residential redevelopment grants, prioritizing North St. Louis City neighborhoods and adjacent LMI census tracts.">
+<link rel="stylesheet" href="assets/styles.css">
+<style>
+.map-wrap { background: #fff; border: 1px solid var(--rule); padding: 26px; margin: 26px 0; }
+.map-wrap svg { width: 100%; height: auto; display: block; }
+.map-caption { font-size: 0.85rem; color: var(--muted); font-style: italic; margin-top: 14px; }
+.legend { display: flex; flex-wrap: wrap; gap: 10px 26px; margin-top: 16px; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 0.82rem; }
+.legend span { display: inline-flex; align-items: center; gap: 8px; }
+.swatch { width: 16px; height: 16px; display: inline-block; border: 1px solid #999; }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="wordmark" href="index.html">Mound City <span class="fund">Fund</span></a>
+    <nav class="site-nav" aria-label="Site">
+      <a href="index.html">Home</a>
+      <a href="the-case.html">Why It Works</a>
+      <a href="grants.html" aria-current="page">Grant Program</a>
+      <a href="donors.html">For Donors</a>
+      <a href="governance.html">Governance</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<div class="pagehead">
+  <div class="pagehead-inner">
+    <div class="eyebrow">Grant Program</div>
+    <h1>Published Target Area</h1>
+    <p class="sub">The geographic criterion referenced in Section 3 of the Grant Program Guidelines.</p>
+  </div>
+</div>
+
+<main class="doc">
+
+  <div class="notice">
+    Draft pending formal Board adoption. Under the Grant Program Guidelines, the target area version posted on this website governs applications submitted after posting. Remove this note once the Board adopts the boundary by resolution.
+  </div>
+
+  <h2>Definition</h2>
+  <p>The Fund's target area consists of the neighborhoods of North St. Louis City, generally the area of the City of St. Louis lying north of Delmar Boulevard, together with adjacent low- to moderate-income census tracts as designated by HUD. Priority is given to projects located in the following neighborhoods: Academy, Baden, College Hill, Fairground, Greater Ville, Hamilton Heights, Hyde Park, JeffVanderLou, Kingsway East, Kingsway West, Mark Twain, North Pointe, O'Fallon, Penrose, The Ville, Visitation Park, Walnut Park East, Walnut Park West, Wells Goodfellow, and West End. A property outside these named neighborhoods remains eligible if it is located within the target area as defined above; the selection committee applies the boundary, not the neighborhood label.</p>
+
+  <h2>Map</h2>
+  <div class="map-wrap">
+    <svg viewBox="0 0 560 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Schematic map of the City of St. Louis showing the Mound City Fund target area in North City, north of Delmar Boulevard, bounded by the Mississippi River to the east.">
+      <!-- city outline (schematic) -->
+      <path d="M150,40 L330,30 C360,60 385,95 405,135 C428,182 442,230 448,280 C454,332 452,385 440,435 C428,487 406,535 375,575 L200,590 C185,540 172,488 165,435 C158,382 152,328 150,275 C148,196 148,118 150,40 Z"
+            fill="#F2EEE4" stroke="#16325C" stroke-width="2.5"/>
+      <!-- north city target area: portion of the city above the Delmar line -->
+      <path d="M150,40 L330,30 C360,60 385,95 405,135 C420,166 431,198 438,232 L155,310 C152,298 151,287 150,275 C148,196 148,118 150,40 Z"
+            fill="#F2B824" fill-opacity="0.55" stroke="#C8102E" stroke-width="3"/>
+      <!-- Mississippi River band -->
+      <path d="M338,22 C368,54 393,90 413,130 C436,178 450,228 456,278 C462,332 460,388 448,440 C436,494 413,543 381,584"
+            fill="none" stroke="#1F4E9C" stroke-width="14" stroke-linecap="round" opacity="0.85"/>
+      <path d="M352,26 C381,58 405,93 424,132"
+            fill="none" stroke="#1F4E9C" stroke-width="0" />
+      <!-- Delmar Blvd line -->
+      <line x1="128" y1="316" x2="452" y2="228" stroke="#C8102E" stroke-width="3" stroke-dasharray="10 7"/>
+      <text x="118" y="340" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#C8102E">Delmar Blvd</text>
+      <!-- neighborhood labels -->
+      <g font-family="Georgia, serif" font-size="14" fill="#16325C">
+        <text x="185" y="80">Baden</text>
+        <text x="270" y="95">North Pointe</text>
+        <text x="175" y="125">Walnut Park</text>
+        <text x="290" y="140">College Hill</text>
+        <text x="200" y="165">Mark Twain</text>
+        <text x="320" y="180">Hyde Park</text>
+        <text x="180" y="205">Penrose</text>
+        <text x="270" y="215">O'Fallon</text>
+        <text x="165" y="245">The Ville</text>
+        <text x="280" y="255">Fairground</text>
+        <text x="330" y="290" transform="rotate(-15 330 290)">JeffVanderLou</text>
+        <text x="170" y="285">Academy / West End</text>
+      </g>
+      <!-- downtown marker -->
+      <circle cx="400" cy="330" r="6" fill="#16325C"/>
+      <text x="342" y="356" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#16325C">Downtown</text>
+      <!-- river label -->
+      <text x="470" y="300" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1F4E9C" transform="rotate(78 470 300)">Mississippi River</text>
+      <!-- south city label -->
+      <text x="240" y="480" font-family="Georgia, serif" font-size="15" fill="#8B8B82">City of St. Louis</text>
+      <!-- north arrow -->
+      <g transform="translate(60,70)">
+        <line x1="0" y1="28" x2="0" y2="0" stroke="#16325C" stroke-width="2.5"/>
+        <path d="M-7,10 L0,-2 L7,10 Z" fill="#16325C"/>
+        <text x="-5" y="46" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#16325C">N</text>
+      </g>
+    </svg>
+    <div class="legend">
+      <span><span class="swatch" style="background:#F2B824; opacity:0.7; border-color:#C8102E;"></span> Target area (North St. Louis City)</span>
+      <span><span class="swatch" style="background:#F2EEE4;"></span> City of St. Louis</span>
+      <span><span class="swatch" style="background:#1F4E9C;"></span> Mississippi River</span>
+    </div>
+    <p class="map-caption">Schematic illustration for orientation only. Boundaries are approximate and not drawn to survey or parcel accuracy. Eligibility is determined under the written definition above and the Grant Program Guidelines, not by this drawing.</p>
+  </div>
+
+  <h2>Adjacent LMI Census Tracts</h2>
+  <p>In addition to the North City neighborhoods shown above, properties in census tracts adjacent to the target area qualify where the tract is designated low- to moderate-income under HUD's published data. Applicants uncertain whether a property qualifies may submit the address with a pre-application, and Fund staff will confirm threshold eligibility within ten business days, as provided in Section 6 of the <a href="grants.html" style="color:var(--red);">Grant Program Guidelines</a>.</p>
+
+  <p class="docfoot">Published under Section 3 of the Grant Program Guidelines. The Board of Directors may amend the target area at any time; the version posted on this website governs applications submitted after posting.</p>
+
+</main>
+
+<footer class="site-foot">
+  <div class="foot-inner">
+    <div class="foot-word">Mound City Fund</div>
+    <div class="foot-motto">Home by home. Wall by wall.</div>
+    <div class="foot-links">
+      <a href="the-case.html">Why It Works</a>
+      <a href="grants.html">Grant Program</a>
+      <a href="grant-agreement.html">Grant Agreement</a>
+      <a href="target-area.html">Target Area</a>
+      <a href="donors.html">For Donors</a>
+      <a href="governance.html">Governance</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="foot-legal">
+      Mound City Fund is a Missouri nonprofit corporation. The Fund has applied to the Internal Revenue Service for recognition of exemption under Section 501(c)(3) of the Internal Revenue Code; a determination is pending. Until a determination letter is issued, the deductibility of contributions is not yet confirmed, and donors should consult their own tax advisors. Nothing on this website is legal, tax, or financial advice.
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
