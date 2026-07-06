@@ -38,7 +38,7 @@ If you have a domain like moundcityfund.org, add it under Settings > Pages > Cus
 
 ## Placeholders to update before launch
 
-- Bracketed email addresses on `contact.html` and in the Make a Gift section of `donors.html` (the mailing address, 9909 Manchester Road, Unit 109, Saint Louis, MO 63122, is already in place)
+- Ensure the four moundcityfund.org mailboxes referenced on `contact.html` and `donors.html` (grants@, give@, partners@, info@) are set up and monitored (the mailing address, 9909 Manchester Road, Unit 109, Saint Louis, MO 63122, is already in place)
 - Add the fillable grant application PDF at `assets/MCF-Grant-Application.pdf` (the Grant Agreement page links to this path)
 - The donation platform embed on `donors.html` (a commented slot marks exactly where to paste Zeffy, Givebutter, Stripe, or PayPal embed code; delete the "coming soon" notice when live)
 - The target area on `target-area.html` is marked as a draft pending Board adoption; remove the draft notice once adopted by resolution, and refine the schematic boundary if desired
