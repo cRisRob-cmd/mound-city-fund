@@ -14,7 +14,8 @@ Static website for Mound City Fund, a Missouri nonprofit making charitable redev
 - `target-area.html` — Published Target Area (schematic map and governing definition)
 - `contact.html` — Contact page (grant, donor, partner, and governance inquiries)
 - `assets/styles.css` — Shared stylesheet (design set palette: navy #003049, red #C12126, cream #FFF7EA; Georgia house type)
-- `assets/mcf-wordmark-navy.png`, `assets/mcf-badge-navy.png`, `assets/favicon.png` — Logo assets cropped from the MCF design set
+- `assets/mcf-wordmark-cream.png`, `assets/mcf-badge-cream.png` — Transparent logo assets for dark backgrounds (used in the header and footer)
+- `assets/mcf-wordmark-blue.png`, `assets/mcf-badge-blue.png`, `assets/favicon.png` — Transparent navy logo assets for light backgrounds
 
 ## Deploying to GitHub Pages
 
