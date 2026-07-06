@@ -7,13 +7,14 @@ Static website for Mound City Fund, a Missouri nonprofit making charitable redev
 - `index.html` — Home: mission, the vacancy problem, how the grant works, ecosystem framing, and a document index
 - `the-case.html` — Economic Rationale and Market Landscape & Positioning (the two-part donor case)
 - `grants.html` — Grant Program Guidelines and Application Procedures
-- `grant-agreement.html` — Residential Redevelopment Grant Agreement (Template)
+- `grant-agreement.html` — Grant Agreement overview (plain-language summary of key terms) and grant application download
 - `donors.html` — Gift Acceptance Policy and Donor Privacy Policy
 - `governance.html` — Governance and Transparency (Whistleblower, Document Retention, Public Disclosure)
 - `faq.html` — Frequently Asked Questions
 - `target-area.html` — Published Target Area (schematic map and governing definition)
 - `contact.html` — Contact page (grant, donor, partner, and governance inquiries)
-- `assets/styles.css` — Shared stylesheet (St. Louis flag palette, Georgia house type)
+- `assets/styles.css` — Shared stylesheet (design set palette: navy #003049, red #C12126, cream #FFF7EA; Georgia house type)
+- `assets/mcf-wordmark-navy.png`, `assets/mcf-badge-navy.png`, `assets/favicon.png` — Logo assets cropped from the MCF design set
 
 ## Deploying to GitHub Pages
 
@@ -36,7 +37,8 @@ If you have a domain like moundcityfund.org, add it under Settings > Pages > Cus
 
 ## Placeholders to update before launch
 
-- Bracketed email addresses, street address, and ZIP on `contact.html`, plus the bracketed email in the Make a Gift section of `donors.html`
+- Bracketed email addresses on `contact.html` and in the Make a Gift section of `donors.html` (the mailing address, 9909 Manchester Road, Unit 109, Saint Louis, MO 63122, is already in place)
+- Add the fillable grant application PDF at `assets/MCF-Grant-Application.pdf` (the Grant Agreement page links to this path)
 - The donation platform embed on `donors.html` (a commented slot marks exactly where to paste Zeffy, Givebutter, Stripe, or PayPal embed code; delete the "coming soon" notice when live)
 - The target area on `target-area.html` is marked as a draft pending Board adoption; remove the draft notice once adopted by resolution, and refine the schematic boundary if desired
 - The per-project grant cap once set annually by the Board
