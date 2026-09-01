@@ -218,6 +218,36 @@ main { max-width: var(--max); margin: 0 auto; padding: 54px 24px 70px; }
   margin: 58px 0;
 }
 
+/* ---------- Collaboratives ---------- */
+
+.collab-card {
+  display: grid;
+  grid-template-columns: minmax(220px, 320px) 1fr;
+  gap: 26px;
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-top: 4px solid var(--navy);
+  padding: 24px;
+  margin: 26px 0 10px;
+}
+.collab-media { display: block; align-self: start; }
+.collab-media img { width: 100%; height: auto; display: block; }
+.collab-kicker {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--red);
+  margin-bottom: 6px;
+}
+.collab-body h3 { color: var(--navy); font-size: 1.25rem; margin: 0 0 10px; }
+.collab-body p { margin: 0 0 14px; font-size: 0.97rem; }
+.collab-body .btn { margin-top: 4px; }
+
+@media (max-width: 640px) {
+  .collab-card { grid-template-columns: 1fr; }
+}
+
 /* ---------- Home sections ---------- */
 
 .section { padding: 60px 24px; }
